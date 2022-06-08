@@ -43,9 +43,8 @@ function myTime(){
     //showing name of today, name of this month & todays date data to html page in span tag
     document.getElementsByClassName("daynameSpan")[0].innerHTML = currentDate;
     document.getElementsByClassName("monthname_dateSpan")[0].innerHTML = currentMonth;
-
-
 }
+
 //calling the function
 myTime();
 setInterval(function(){ //setting interval time to anonymus function to refresh repeatedly
