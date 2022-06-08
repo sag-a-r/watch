@@ -1,11 +1,13 @@
 /* orbitron font import */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
 
+/* for all body */
 *{
     background-color: rgb(53, 53, 53);
     font-family: orbitron;
 }
 
+/* main section */
 .myWatchSection{
     text-align: center;
     width: 50%;
@@ -19,9 +21,7 @@
     background-color: rgb(53, 53, 53);
     padding: 40px 20px;
     border-radius: 10px;
-    background-size: 1000px;
 }
-
 .myWatchDiv{
     background-color: rgb(53, 53, 53);
     width: 90%;
@@ -31,17 +31,14 @@
     justify-content: center;
     align-items: center;
 }
-
 .myTimeDiv{
     background-color: rgb(53, 53, 53);
     display: flex;
     align-items: baseline;
 }
-
 .myDateDiv{
     background-color: rgb(53, 53, 53);
 }
-
 .hourSpan{
     font-size: 80px;
     border-radius: 10px;
@@ -74,9 +71,7 @@
     border-radius: 5px;
     margin-left: 20px;
     margin-right: 20px;
-    
 }
-
 .daynameSpan{
     font-size: 30px;
     background-color: rgb(53, 53, 53);
@@ -93,7 +88,7 @@
 }
 
 
-
+/* media quries */
 /*mobile view*/
 @media(max-width: 768px){
     .myWatchSection{
@@ -108,11 +103,9 @@
         flex-direction: column;
         align-items: center;
     }
-    
     .myDateDiv{
         background-color: rgb(53, 53, 53);
     }
-    
     .hourSpan{
         margin-top: 20px;
     }
@@ -129,12 +122,11 @@
         margin-left: 42px;
         margin-right: 42px;
     }
-    
 }
+
 
 /*desktop view*/
 @media(min-width:1080px){
-
 }
 
 
