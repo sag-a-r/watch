@@ -1,6 +1,7 @@
 //declaring a function
 function myTime(){
-    var myDate = new Date();   //gate constructor to get time and date
+    var myDate = new Date();   //date constructor to get time and date
+
     //ternary operators
     var hour,minute = (myDate.getMinutes() < 10) ? "0" + myDate.getMinutes() : myDate.getMinutes(); //if minute is < 10 then add a 0 before it
     var second = (myDate.getSeconds() < 10) ? "0" + myDate.getSeconds() : myDate.getSeconds();  //if second is < 10 then add a 0 before it
