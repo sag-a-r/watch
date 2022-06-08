@@ -1,2 +1,2 @@
 # watch
-simple digital watch project
+simple digital watch project with html css and javascript
