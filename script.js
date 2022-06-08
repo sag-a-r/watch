@@ -37,8 +37,10 @@ function myTime(){
     var currentDay = myDate.getDate();
 
     //declaring variables to store name of today, name of this month & todays date data
-    var currentDate = Days[myDate.getDay()]; //name of today
-    var currentMonth = Months[myDate.getMonth()] + " " + currentDay; //name of this month & todays date
+    //name of today
+    var currentDate = Days[myDate.getDay()]; //introduce days array in currentdate variable
+    //name of this month & todays date
+    var currentMonth = Months[myDate.getMonth()] + " " + currentDay; //introduce months array in currentmonth variable
     
     //showing name of today, name of this month & todays date data to html page in span tag
     document.getElementsByClassName("daynameSpan")[0].innerHTML = currentDate;
